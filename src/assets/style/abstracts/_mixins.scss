@@ -1,0 +1,14 @@
+
+@mixin hole-text($font-siz,$font-wei,$font-famly)
+{
+    font-size: $font-siz;
+    font-weight:$font-wei;
+    font-family: $font-famly; 
+}
+@mixin center-crossX-crossY
+{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+

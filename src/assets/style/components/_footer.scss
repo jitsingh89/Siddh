@@ -1,0 +1,25 @@
+.footer{
+    p{
+        margin: 0px;
+    }
+    background-color: $dark-blue;
+   /*  margin-top: 10rem; */
+    color:#fff;
+    padding: 4rem 0px;
+    p,a,.fa{
+        color:#b5b5b5;
+    }
+    .fa{
+        font-size: 20px;
+    padding-right: 1rem;
+    }
+    ul{
+        li{
+            padding: 1rem 0px;
+           
+            &:not(:last-child){
+                border-bottom: 1px solid #b5b5b5;
+            }
+        }
+    }
+}

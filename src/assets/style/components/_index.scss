@@ -1,0 +1,37 @@
+.index{
+    &__courses
+    {
+        background-color: #f8f8f8;
+        .container{
+        padding: 7rem 0px;
+        span{
+            color: $dark-yellow;
+        }
+        &__heading{
+            max-width: 50%;
+            text-align: center;
+            margin: 0px auto;
+        }
+    }
+    .card{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border:none;
+        transition: 0.3s;
+        text-align: center;
+        border-top: 6px solid $dark-blue;
+        padding: 1rem;
+        &:hover{
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+        .fa{
+            font-size: 40px;
+            color: $dark-yellow;
+        }
+    }
+    
+    }
+    /*  */
+    &__courses-carusel{
+        padding: 4rem 2rem;
+    }
+}

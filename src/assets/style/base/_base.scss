@@ -1,0 +1,42 @@
+
+*, *::before, *::after {
+	margin:0px;
+	padding:0px;
+    box-sizing: inherit;
+}
+
+html
+{
+	font-size: 62.5%;
+}
+
+body {
+	box-sizing:border-box!important;
+	line-height: 1.5!important;
+	text-align: left!important;
+	overflow-x: hidden!important;
+	font-size:$body-font-size!important;
+	font-family: $base-font-Poppins!important;
+	font-weight: $font-weight-regular!important;
+	background-color: #e4e4e4!important;
+	padding: 0px 0px 4rem 0px;
+}
+.main{
+	background-color: #fff;
+	padding: 0px!important;
+	/* box-shadow: 0px 0px 10px rgba($color: #000000, $alpha: 0.6) */
+	box-shadow: 1px 4px 5px -1px rgba(0,0,0,0.5);
+	
+}
+
+.btn:focus,.btn:active,select,input,.default {
+	outline: none ;
+	box-shadow: none;
+ }
+
+/*  #root{
+p,h1,h2,h3{
+	margin: 0px;
+}
+ }
+ */

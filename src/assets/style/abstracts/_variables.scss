@@ -1,0 +1,41 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+//== FONT FAMILY==
+
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+//Font family
+
+$base-font-Poppins: 'Poppins', sans-serif;
+$base-font-Quicksand: 'Quicksand', sans-serif;
+
+//font weight
+$font-weight-medium:500;
+$font-weight-bold:700;
+$font-weight-regular:400;
+
+
+
+//Color
+$deafult-color:#fff;
+$dark-blue: #001d4a;
+$dark-yellow: #faa603;
+$silver: #8e8e90;
+$onyx: #49494b;
+
+// font-size
+//h1 font size;
+$heading-font-size:2rem;
+$body-font-size:1.4rem;
+
+
+//padding and margin 
+
+
+
+
+

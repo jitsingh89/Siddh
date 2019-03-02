@@ -1,0 +1,17 @@
+/* #root{
+    .btn
+    {
+        background-color: transparent;
+        color: $deafult-color;
+        font-size: 1.4rem;
+        border: 1px solid $deafult-color;
+        border-radius: 0.4rem;
+        padding: 0.1rem 2rem;
+        @include center-crossX-crossY;
+       &:hover
+        {
+            background-color:$deafult-color;
+            color:$dark-blue;
+        }
+    }
+} */
